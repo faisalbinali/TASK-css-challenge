@@ -1,0 +1,19 @@
+img {
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+body {
+    background-color: #1b0c2c;
+}
+h1{
+    font-style: italic;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    color: white;
+}
