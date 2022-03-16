@@ -1,29 +1,45 @@
 /* Add your code in each class */
 body {
   background-color: #1b0c2c;
+  color: white;
+
 }
 .container {
-  align-content: center;
-  justify-content: center;
-  
-}
-.movie-card {
   display: flex;
   align-content: center;
   justify-content: center;
-  min-height: 100vh;
+  
+  
+}
+.movie-card {
+  position: relative;
+  margin-top: 150px;
+  align-content: center;
+  justify-content: center;
+  
+  
+  
+  
 }
 .movie-image {
+  object-position: 5px 100%;
+  z-index: -1;
   width: 300px;
   height: 300px;
+  
 }
 .movie-details-container {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  
 }
 .descriptions {
+  
 }
 
 /*A gift from us!*/
-.movie-shadow {
+ .movie-shadow { 
   /*
     This gradient was made by this website https://cssgradient.io/
 */
