@@ -1,7 +1,11 @@
 /* Add your code in each class */
 body {
+  background-color: #1b0c2c;
 }
 .container {
+  display: flex;
+  
+  background-image: url("/Users/fn_20/TASK-css-challenge/assets/harrypotter.jpg");
 }
 .movie-card {
 }
