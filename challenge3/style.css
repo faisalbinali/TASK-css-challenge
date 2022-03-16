@@ -17,12 +17,15 @@
   
 
 }
-
+.list{
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-y: scroll; /* Add vertical scrollbar */
+  
+}
 .row {
   /* .row is used in ./index.js not in the html filee */
   background-color: #f2f3af;
-  overflow-x: hidden; /* Hide horizontal scrollbar */
-  overflow-y: scroll; /* Add vertical scrollbar */
+  
 }
 
 /* This is a gift - Does not need editing */
@@ -30,4 +33,5 @@
 .row:hover {
   text-decoration: line-through;
   cursor: pointer;
+  
 }

@@ -3,13 +3,19 @@ body {
   background-color: #1b0c2c;
 }
 .container {
-  display: flex;
+  align-content: center;
+  justify-content: center;
   
-  background-image: url("/Users/fn_20/TASK-css-challenge/assets/harrypotter.jpg");
 }
 .movie-card {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  min-height: 100vh;
 }
 .movie-image {
+  width: 300px;
+  height: 300px;
 }
 .movie-details-container {
 }
